@@ -2,7 +2,7 @@
 
 Name:           python-fpconst
 Version:        0.7.3
-Release:        11%{?dist}
+Release:        12%{?dist}
 Summary:        Python module for handling IEEE 754 floating point special values
 
 Group:          Development/Languages
@@ -49,6 +49,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.7.3-12
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.7.3-11
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
